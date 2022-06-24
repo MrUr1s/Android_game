@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Field
     - Player
+    - SpawnEnemy
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -71,7 +72,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 4300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,6 +296,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e7a17d37a7c184fe8c534f09e62de730
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnEnemy
   - hash:
       serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f

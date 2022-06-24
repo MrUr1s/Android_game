@@ -58,8 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Hit.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
+    <Compile Include="Assets\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Field.cs" />
-    <Compile Include="Assets\SpawnEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI Toolkit\UI.uxml" />

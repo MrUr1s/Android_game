@@ -315,6 +315,7 @@
 "Assets/Scripts/Field.cs"
 "Assets/Scripts/Hit.cs"
 "Assets/Scripts/Player.cs"
+"Assets/SpawnEnemy.cs"
 -langversion:9.0
 
 /deterministic
